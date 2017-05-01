@@ -1,0 +1,251 @@
+/* NAV BAR */
+.firstcontainer{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    height: auto;
+    align-items: center;
+    margin: 16px auto ;
+    font-family: Open Sans;
+    align-content: space between; 
+    flex-wrap: wrap;
+    
+    
+    
+
+    
+}
+@media only screen and (min-width: 600px){
+    nav{
+        background-color: white;
+    }
+    h1 {
+        flex-wrap: wrap;
+    }
+}
+.div{
+    float: left;
+    display: inline-flex;
+    margin-right: 200px;
+}
+.flexitem{
+    display: inline-flex;
+    flex-direction: row-reverse;
+   align-content: flex-start;
+   flex-wrap: wrap;
+    padding: 8px;
+    font-size: 16px;
+    color: #173493;
+    float: right;
+}
+.flexitem2{
+    justify-content: flex-start;
+    flex: 4 0 0;
+    font-size: 16px;
+    margin-right: 400px;
+}
+/* LARGE IMAGE */
+
+.secondcontainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 1200px;
+    height:400px;
+    background-image: url("../challenge/img/enchant-your-guests.jpg");
+    background-repeat: no-repeat;
+    margin: 0 auto 0 auto;
+    font-family: Alegreya, serif;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+}
+.secondflex{
+    font-size: 68px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+.thirdflex{
+    font-size: 42px;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin: auto;
+    padding-bottom: 2em;
+}
+.forthflex{
+    background-color: #3C6D04;
+    box-shadow:0px 0px 10px white;
+    margin: 8px 0;
+    color: white;
+    padding: 12px 12px 12px 12px;
+    border-radius: 8px;
+    font-size: 26px;
+
+    
+}
+
+/* ICONS */
+.thirdcontainer{
+    display: flex;
+    flex-direction: row; 
+    width: 1200px;
+    height: auto;
+    background-color: #173493;
+    margin: 0 auto 0 auto;
+    color: white;
+    font-family: open sans, serif;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    padding:0;
+}
+.flex3{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    order: 1;
+    margin: 12px 20px 20px 120px;
+    text-align: center;
+    align-items: center;
+    
+   
+}
+.flex4{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    order: 2;
+    margin: 12px 20px 20px 20px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+ 
+}
+.flex5{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    order: 3;
+    margin: 12px 80px 20px 20px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+
+    
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    
+}
+
+/* IMAGES */
+
+.fourthcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    width: 1000px;
+    margin: 0 auto;
+    
+
+}
+h3 {
+    margin: 0;
+}
+.flex41 {
+    width: 320px;
+    height: 280px;
+    margin: 6px;
+    background-image: url("../challenge/img/romance.jpg");
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    
+    }
+    .flex42{
+    width: 320px;
+    height: 280px;
+    margin: 6px;
+    background-image: url("../challenge/img/visitors.jpg");
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    }
+    .flex43{
+    width: 320px;
+    height: 280px;
+    margin: 6px;
+    background-image: url("../challenge/img/picnic.jpg");
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    }
+     .flex44{
+    width: 320px;
+    height: 280px;
+    margin: 6px;
+    background-image: url("../challenge/img/grill.jpg");
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    }
+    .flex45{
+    width: 320px;
+    height: 280px;
+    margin: 6px;
+    background-image: url("../challenge/img/celebration.jpg");
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    }
+    .flex46{
+    width: 320px;
+    height: 280px;
+    margin: 6px;
+    background-image: url("../challenge/img/kids.jpg");
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    }
+.textimage{ 
+  display: block;
+    color: white;  
+    background-color: rgba(0, 0, 0, 0.3); 
+    padding: 2px;     
+font-family: open sans, serif;
+font-size: 12px;
+position: absolute;
+align-self: flex-end;
+}
+
+/* FOOTER */
+
+.footer{
+   
+    width: 1200px;
+    height: auto;
+    background-color: #173493;
+    margin: 0 auto;
+}
+.footertext{
+    color: white;
+    font-family: open, sans-serif;
+    margin: 20px;
+    padding: 12px;
+
+}
+h4 {
+    font-size: 18px;
+}
+#lasttitle{
+    font-family: Alegreya, sans-serif;
+    color: white;
+}
